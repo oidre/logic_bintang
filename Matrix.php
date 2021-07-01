@@ -40,12 +40,4 @@ class Matrix{
 		echo "<input type='submit' value='submit' />";
 		echo "</form>";
 	}
-	
-	public function form2(){
-		echo "<form method='POST'>";
-		echo "n 1 : <input type='number' value='".@$_POST['input']."' name='input' /><br/>";
-		echo "n 2 : <input type='number' value='".@$_POST['input2']."' name='input2' /><br/>";
-		echo "<input type='submit' value='submit' />";
-		echo "</form>";
-	}
 }
